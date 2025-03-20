@@ -1,0 +1,12 @@
+FileVersion = 1
+
+[Project]
+Name = "ulid-beef"
+DefaultNamespace = "ulid"
+
+[Configs.Debug.Win64]
+CLibType = "DynamicDebug"
+LibPaths = ["$(ProjectDir)\\libs\\debug\\ulid.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\release\\ulid.lib"]
